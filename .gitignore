@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Runtime state (created by the system; don't commit)
+status_state.json
+status_log.md
+monitor_state.json
+monitor.log
+collect.log
+rerun.log
+collection_*.log
+nohup.out
+monitor.out
+
+# Project-specific runtime data
+simulations/
+output/
+failed_cases.json
+failed_cases.md
+input.dat
+input.mat
+
+# Editor / OS
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# Test artifacts (created by tests/test_simulation.sh and similar)
+tests/.sim_run_*/
